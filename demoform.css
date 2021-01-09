@@ -1,0 +1,42 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+.just_box {
+    margin-left : 30%;
+    margin-right : 30%;
+    margin-top : 10%;
+    background-color: #9e9e9e;
+    width : auto;
+    border-radius : 8px;
+ }
+ #pwd {
+     max-width : 100%;
+ }
+ .error {
+   padding : 0 0 0 30px;
+   margin-top : 10px;
+ }
+ .inp {
+     padding : 8px 0 0 30px ;
+     border-bottom : 2px solid #828282;
+ }
+ input[type=text]{
+     width :50%!;
+ }
+ .invalid {
+     color : red;
+ }
+ .invalid:before{
+     position : relative;
+     content : '\2715';
+     margin-right : 10px;
+ }
+ .valid {
+     color : green;
+ }
+ .valid::before {
+     position: relative;
+     content : '\2713';
+     margin-right : 10px;
+ }
